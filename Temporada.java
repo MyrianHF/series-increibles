@@ -28,4 +28,11 @@ public class Temporada {
     public void setSerieTerminada(boolean serieFinalizada) {
         serieTerminada = serieFinalizada;
     }
+    
+    /**
+    * Imprime detalles serie
+    */
+    public void imprimirDetalles() {
+	System.out.println("Número de capítulos: " + numeroCapitulos + " / Serie terminada: " + serieTerminada);
+    }
 }
