@@ -57,4 +57,11 @@ public class Serie {
     public void setTemporada(int numeroTemporada) {
         temporada = numeroTemporada;
     }  
+    
+    /**
+    * Imprime detalles serie
+    */
+    public void imprimirDetalles() {
+    System.out.println("Nombre del protagonista: " + nombreProtagonista + " / Categoría: " + categoría + " / Temporada: " + temporada);
+    }
 }
