@@ -15,4 +15,46 @@ public class Serie {
         categoría = nombreCategoría;
         temporada = numeroTemporada;
     }
+    
+    /**
+     * Devuelve el nombre del protagonista
+     */
+    public String getNombreProtagonista() {
+        return nombreProtagonista;
+    }   
+    
+    /**
+     * Devuelve la categoría de la serie
+     */
+    public String getCategoriaSerie() {
+        return categoría;
+    }  
+    
+    /**
+     * Devuelve el número de temporada de la serie
+     */
+    public int getNumeroTemporada() {
+        return temporada;
+    }  
+    
+    /**
+     * Establece nombre protagonista
+     */
+    public void setNombreProtagonista(String nombreNuevoProtagonista) {
+        nombreProtagonista = nombreNuevoProtagonista;
+    }   
+    
+    /**
+     * Establece categoria serie
+    */
+    public void setCategoria(String nuevaCategoría) {
+        categoría = nuevaCategoría;
+    }  
+    
+    /**
+     * Establece categoria serie
+    */
+    public void setTemporada(int numeroTemporada) {
+        temporada = numeroTemporada;
+    }  
 }
