@@ -5,15 +5,15 @@ public class Serie {
     // Categoría de la serie
     private String categoría;
     // Número de la temporada
-    private int temporada;
+    private Temporada temporada;
 
     /**
      * Crea estructura de la serie
      */
-    public Serie(String nombreDelProtagonista, String nombreCategoría, int numeroTemporada) {
+    public Serie(String nombreDelProtagonista, String nombreCategoría, Temporada nuevaTemporada) {
         nombreProtagonista = nombreDelProtagonista;
         categoría = nombreCategoría;
-        temporada = numeroTemporada;
+        temporada = nuevaTemporada;
     }
     
     /**
@@ -33,7 +33,7 @@ public class Serie {
     /**
      * Devuelve el número de temporada de la serie
      */
-    public int getNumeroTemporada() {
+    public Temporada getNumeroTemporada() {
         return temporada;
     }  
     
@@ -52,9 +52,9 @@ public class Serie {
     }  
     
     /**
-     * Establece categoria serie
+     * Establece el número de la temporada
     */
-    public void setTemporada(int numeroTemporada) {
+    public void setTemporada(Temporada numeroTemporada) {
         temporada = numeroTemporada;
     }  
     
